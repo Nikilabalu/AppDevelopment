@@ -1,0 +1,44 @@
+.job-list {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.job-listing {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.job-listing h2 {
+  margin: 0;
+}
+
+.job-listing button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.application-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.application-form input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.application-form button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

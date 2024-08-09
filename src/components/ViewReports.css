@@ -1,0 +1,51 @@
+.reports-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.summary-item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 400px;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.bar {
+  width: 50px;
+  background-color: #4CAF50;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.label {
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  text-align: center;
+}
+
+.value {
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}

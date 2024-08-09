@@ -1,0 +1,43 @@
+/* src/components/ManageUsers.css */
+
+.manage-users-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .user-section {
+    margin: 20px 0;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .user-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .user-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
